@@ -23,7 +23,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      run: sudo su
+        run: sudo su
       - uses: krdlab/setup-haxe@master
         with:
           haxe-version: 4.2.0
