@@ -30,7 +30,7 @@ jobs:
       - name: Install Haxelib
         run: |
           sudo su
-          haxelib setup
+          haxelib setup /Users/runner/hostedtoolcache/haxe/4.2.0/x64/lib
           haxelib install hxcpp > nul
           haxelib install lime
           haxelib install openfl
